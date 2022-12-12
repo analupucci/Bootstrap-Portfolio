@@ -6,7 +6,6 @@ body {
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
   background-color: black;
   
 }
@@ -129,6 +128,15 @@ section h2 {
   border-style:groove
 }
 
+/* About me */
+
+.bodyText {
+  color: white;
+  margin: 40px;
+  font: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  text-align: center;
+}
+
 /* Cards */
 
 .neonText {
@@ -142,7 +150,6 @@ section h2 {
       0 0 92px #4cc9f0,
       0 0 102px #4cc9f0,
       0 0 151px #4cc9f0;
-  font: 
 }
 .content {
   padding: 50px;
