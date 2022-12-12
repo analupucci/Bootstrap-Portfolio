@@ -11,7 +11,7 @@ body {
 }
 
 a {
-  color: #f7cbee;
+  color: grey;
   transition: all .35s;
 }
 
@@ -109,6 +109,20 @@ section h2 {
   color: #ff477e;
 }
 
+/*
+.neonTextHeader {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #ff477e,
+      0 0 21px #fff,
+      0 0 42px #fff,
+      0 0 82px #fff,
+      0 0 92px #fff,
+      0 0 102px #fff,
+      0 0 151px #ff477e;
+} /*
+
 /* Hero section ============= */
 
 .masthead {
@@ -134,7 +148,7 @@ section h2 {
   color: white;
   margin: 40px;
   font: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  text-align: center;
+  text-align:justify
 }
 
 /* Cards */
@@ -160,6 +174,7 @@ section h2 {
 }
 .showsNear  {
   padding: 0px 30px 30px 30px;
+  justify-content: center ;
 }
 .cardContainer {
   text-align: center;
@@ -170,27 +185,9 @@ section h2 {
   justify-content: center;
 }
 
-/* Contact 
+/* Contact */
 
 
-.signup-section {
-  padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../images/sf.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-.signup-section .form-inline input {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-}
 
 .contact-section {
   padding-top: 5rem;
@@ -231,6 +228,10 @@ section h2 {
 
 .bg-black {
   background-color: #000000 !important;
+}
+
+.contactMe {
+  margin: 50px;
 }
 
 footer {
@@ -305,5 +306,5 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
-} */
+} 
 
