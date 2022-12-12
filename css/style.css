@@ -7,6 +7,7 @@ body {
 
 body {
   font-family: 'Courier New', Courier, monospace;
+  background-color: black;
   
 }
 
@@ -114,73 +115,55 @@ section h2 {
 .masthead {
   position: relative;
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding: 300px;
   color: white;
   background: url("../images/abstract-uv-ultraviolet-light-composition.jpg");
+  background-size: cover;
+  background-position: center
 }
 
-header.masthead .header-content {
-  max-width: 500px;
-  margin-bottom: 100px;
+.profilePic {
+  border-radius: 100px;
+  position: relative;
+  left: 308px;
+  border-style:groove
+}
+
+/* Cards */
+
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #4cc9f0,
+      0 0 10px #4cc9f0,
+      0 0 21px #4cc9f0,
+      0 0 42px #4cc9f0,
+      0 0 82px #4cc9f0,
+      0 0 92px #4cc9f0,
+      0 0 102px #4cc9f0,
+      0 0 151px #4cc9f0;
+  font: 
+}
+.content {
+  padding: 50px;
+}
+.sectionHeading {
+  text-align: center;
+  color: ;
+}
+.showsNear  {
+  padding: 0px 30px 30px 30px;
+}
+.cardContainer {
   text-align: center;
 }
 
-header.masthead .header-content h1 {
-  font-size: 30px;
+.spacing {
+  margin: 50px;
+  justify-content: center;
 }
 
-header.masthead .device-container {
-  max-width: 325px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-header.masthead .device-container .screen img {
-  border-radius: 3px;
-}
-
-
-section.download {
-  position: relative;
-  padding: 150px 0;
-}
-
-section.download h2 {
-  font-size: 50px;
-  margin-top: 0;
-}
-
-section.download .badges .badge-link {
-  margin-bottom: 25px;
-}
-
-section.download .badges .badge-link:last-child {
-  margin-bottom: 0;
-}
-
-section.download .badges .badge-link img {
-  height: 60px;
-}
-
-
-/* Testimonials section ============= */
-
-section.testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-section.testimonials .testimonial-item {
-  max-width: 18rem;
-}
-
-section.testimonials .testimonial-item img {
-  max-width: 12rem;
-  box-shadow: 0px 5px 5px 0px #adb5bd;
-}
-
-/* Signup section ============= */
+/* Contact 
 
 
 .signup-section {
@@ -315,5 +298,5 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
-}
+} */
 
