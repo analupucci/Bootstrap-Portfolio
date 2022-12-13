@@ -257,8 +257,23 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   text-decoration: none;
 }
 
-@media screen and (max-width: 575px) { } {
-  #headline 
-    width: auto;
-    margin: 20px;
+
+
+@media screen and (max-width: 800px) {
+  .masthead {
+    position: relative;
+    color: white;
+    background: url(../images/abstract-uv-ultraviolet-light-composition.jpg);
+    background-size: contain;
+    /* background-position: center; */
   }
+
+  h1 {
+    margin-left: -200px;
+    margin-top: -100px;
+  }
+
+  .profilePic {
+    margin-left: -6000px;
+  }
+}
