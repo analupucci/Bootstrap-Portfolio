@@ -191,10 +191,11 @@ section h2 {
 
 .contact-section {
   padding-top: 5rem;
+  width: 100%;
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #48cae4;
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
@@ -203,7 +204,7 @@ section h2 {
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #48cae4;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -226,10 +227,6 @@ section h2 {
   color: #fff;
 }
 
-.bg-black {
-  background-color: #000000 !important;
-}
-
 .contactMe {
   margin: 50px;
 }
@@ -239,6 +236,7 @@ footer {
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
   background-color: #222222;
+  width: 100%;
 }
 
 footer p {
@@ -259,52 +257,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   text-decoration: none;
 }
 
-.bg-primary {
-  background: #fdcc52;
-  background: linear-gradient(#fdcc52, #fdc539);
-}
-
-.text-primary {
-  color: #fdcc52;
-}
-
-.no-gutter > [class*='col-'] {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-
-.btn {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-}
-
-.btn-outline {
-  color: white;
-  border: 1px solid;
-  border-color: white;
-}
-
-.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-  color: white;
-  border-color: #fdcc52;
-  background-color: #fdcc52;
-}
-
-.btn {
-  border-radius: 300px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.btn-xl {
-  font-size: 11px;
-  padding: 15px 45px;
-} 
-
+@media screen and (max-width: 575px) { } {
+  #headline 
+    width: auto;
+    margin: 20px;
+  }
